@@ -28,6 +28,7 @@ const Repositories = () => {
             <S.WrapperTab>Repositories</S.WrapperTab>
             <S.WrapperTab>Starred</S.WrapperTab>
           </S.WrapperTabList>
+
           <S.WrapperTabPanel>
             <S.WrapperList>
               {githubState.repositories.map((item) => (
@@ -40,6 +41,7 @@ const Repositories = () => {
               ))}
             </S.WrapperList>
           </S.WrapperTabPanel>
+
           <S.WrapperTabPanel>
             <S.WrapperList>
               {githubState.starred.map((item) => (
@@ -52,6 +54,7 @@ const Repositories = () => {
               ))}
             </S.WrapperList>
           </S.WrapperTabPanel>
+          
         </S.WrapperTabs>
       ) : (
         <></>

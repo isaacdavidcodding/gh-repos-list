@@ -8,6 +8,14 @@ export const Wrapper = styled.div`
   width: 350px;
   height: 150px;
   align-content: center;
+  background-color: #FFE6E6;
+  color: #B8255F;
+  border-radius: 3%;
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: 0 0 0 4px #B8255F;
+  }
 `;
 
 export const WrapperTitle = styled.h2`
